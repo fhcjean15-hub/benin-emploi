@@ -5,7 +5,7 @@ namespace App\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class BesoinCollection extends ResourceCollection
+class BlogCollection extends ResourceCollection
 {
     public function toArray(Request $request): array
     {
